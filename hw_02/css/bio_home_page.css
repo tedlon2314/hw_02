@@ -1,0 +1,150 @@
+
+.container-fluid {
+    padding-top: 800px;
+}
+
+.nav{
+    height: 60px;  
+}
+
+.nav-link{
+    padding-top: 18px;
+    color: white;
+    }
+
+.active
+{
+    text-underline-position: white 1px;
+}
+   
+.hero img {
+    width: 100%
+}
+
+.jumbotron-fluid {
+    padding-top: 100px;
+    background-color: lightgray;
+    }
+
+    .jumbotron-header {
+        padding-top: 50px;
+        background-color: lightgray;
+        }
+
+.card{
+    margin: 0px;
+    box-shadow: 0 4px 3px -3px black;
+}
+
+header{
+    background-color: #28679a;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+   font-size: 100px;
+   padding-left: 3px;
+}
+
+ h2{
+    color: #28679a;
+    font-size: 65px;
+    font-family: 'Montserrat', sans-serif;
+ }
+
+ h3{
+    color: #28679a;
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+ }
+
+ h4{
+    color: #28679a;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;   
+ }
+
+.display-4{
+    font-size: 100px;
+    color: #28679a;
+    padding-top: 40px;
+    padding-left: 3px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.lead{
+
+    padding-left:0px;
+}
+
+
+@media screen and (max-width:600px) {
+
+    .jumbotron-fluid {
+        padding-top: 40px;
+        background-color: white;
+        padding-bottom: 10px;
+        }
+
+    img{
+        margin-left: 100px ;
+        width: 50%;
+    }
+
+    .display-4{
+        font-size: 60px;
+        color: #28679a;
+        padding-top: 40px;
+        padding-left: 3px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .lead{
+        padding-left:0px;
+        
+    }
+    
+    h2{
+        color: #28679a;
+        font-size: 38px;
+        font-family: 'Montserrat', sans-serif;
+     }
+
+     h4{
+        color: #28679a;
+        font-size: 28px;
+        font-family: 'Montserrat', sans-serif;
+     }
+
+     .jumbotron-header {
+        padding-top: 20px;
+        background-color: lightgray;
+        }
+
+    .card-body{
+        padding-left: 2px;
+    }
+
+    .card-img-top{
+        margin-left: 1px;
+    }
+
+    .card{
+        margin-bottom: 15px;
+    }
+
+    .card-title{
+        padding-left:15px;
+    }
+
+    .card-text{
+        padding-left: 15px;
+    }
+
+    .btn{
+        margin-left: 15px;
+    }
+
+
+    }
+
